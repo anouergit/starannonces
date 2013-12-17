@@ -1,6 +1,7 @@
-ance_star_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: AnceStarBundle:Default:index }
-HelloTheWorld:
-    path:     /hello-world
-    defaults: { _controller: AnceStarBundle:Blog:index }
+home:
+    path:      /
+    defaults:  { _controller: AnceStarBundle:Star:index }
+    
+add:
+    path:      /add
+    defaults:  { _controller: AnceStarBundle:Star:add }    
