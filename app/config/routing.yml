@@ -1,0 +1,4 @@
+ance_star:
+    resource: "@AnceStarBundle/Resources/config/routing.yml"
+    prefix:   /
+
